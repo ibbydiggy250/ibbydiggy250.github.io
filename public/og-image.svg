@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#09090b"/>
+  <rect x="72" y="72" width="1056" height="486" rx="24" fill="#0f1412" stroke="#27272a"/>
+  <circle cx="948" cy="180" r="112" fill="#7dd3fc" opacity="0.16"/>
+  <text x="112" y="240" fill="#fafafa" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="700">Ibrahim Quaizar</text>
+  <text x="116" y="318" fill="#a1a1aa" font-family="Inter, Arial, sans-serif" font-size="34">Computer Engineering @ Stony Brook</text>
+  <text x="116" y="402" fill="#d4d4d8" font-family="Inter, Arial, sans-serif" font-size="30">AI systems. Full-stack products. Real-world impact.</text>
+  <text x="930" y="500" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">IQ</text>
+</svg>

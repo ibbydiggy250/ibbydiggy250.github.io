@@ -1,0 +1,255 @@
+Build the portfolio content around the following exact information and writing guidance.
+
+SITE POSITIONING:
+Present Ibrahim Quaizar as a builder focused on AI systems, full-stack development, and practical products with real-world impact. The site should feel modern, technical, and recruiter-friendly.
+
+HERO SECTION
+
+Name:
+Ibrahim Quaizar
+
+Headline:
+Computer Engineering @ Stony Brook
+
+Subheadline:
+I build AI-powered and full-stack systems that turn technical ideas into usable products.
+
+Alternative subheadline options:
+- Building AI, data, and web systems with an emphasis on performance, usability, and real-world impact.
+- Computer Engineering student focused on machine learning, full-stack development, and product-minded engineering.
+
+Short intro paragraph:
+I’m a Computer Engineering student at Stony Brook University with experience across machine learning, web development, and data-driven applications. I enjoy building systems that are not only technically sound, but useful in practice—whether that means real-time ML pipelines, intelligent matching platforms, or accessible web experiences.
+
+Primary CTA buttons:
+- View Projects
+- Resume
+- GitHub
+- LinkedIn
+- Contact
+
+ABOUT SECTION
+
+Title:
+About Me
+
+Body:
+I’m a builder who likes working at the intersection of AI, software, and real-world problem solving. My work spans machine learning, data pipelines, full-stack apps, and frontend development, with projects ranging from accessibility tools to intelligent recruiting systems. I’m especially interested in building products that combine strong technical architecture with clear user value.
+
+Optional second paragraph:
+Beyond writing code, I care about how systems are communicated, adopted, and scaled. That product mindset has shaped how I approach hackathons, internships, and team leadership: not just building something functional, but building something people would actually want to use.
+
+PROJECTS SECTION
+
+Title:
+Featured Projects
+
+Intro line:
+A selection of projects focused on machine learning, intelligent systems, and full-stack product development.
+
+PROJECT 1
+Name:
+MatchedIn
+
+Tag:
+AI Matching Platform
+
+One-line summary:
+An AI-driven candidate and recruiter matching platform built to surface high-value professional connections from large profile datasets.
+
+Description:
+MatchedIn is a full-stack platform that uses vector-based similarity to connect users with relevant professional matches. The system combines data preprocessing, retrieval logic, and LLM-assisted messaging to make networking more targeted and actionable.
+
+Technical highlights:
+- Built with React, FastAPI, and Python
+- Processed 50K+ profiles for feature extraction and matching
+- Used embedding-driven retrieval and KNN-based ranking for similarity search
+- Integrated Gemini API to generate personalized outreach messages
+- Designed for fast, relevant match recommendations and strong end-user usability
+
+Tech stack tags:
+React, FastAPI, Python, KNN, Embeddings, Gemini API, Parquet
+
+Optional “Why it matters” line:
+Instead of treating networking like random outreach, MatchedIn reframes it as a retrieval and relevance problem.
+
+PROJECT 2
+Name:
+Hands-Up
+
+Tag:
+Real-Time ASL to Speech
+
+One-line summary:
+A real-time accessibility tool that translates ASL gestures into speech using computer vision and deep learning.
+
+Description:
+Hands-Up was built to make digital communication more accessible by converting sign language gestures into spoken output in real time. The system combines computer vision, ML inference, and speech synthesis into a live end-to-end pipeline.
+
+Technical highlights:
+- Built a gesture recognition pipeline using TensorFlow, OpenCV, and MediaPipe
+- Trained a custom CNN on hand landmark data
+- Applied normalization and dropout to improve generalization
+- Achieved 94% accuracy with sub-100ms latency
+- Connected live webcam input to speech output for real-time interaction
+
+Tech stack tags:
+TensorFlow, OpenCV, MediaPipe, CNN, Python, ElevenLabs
+
+Optional “Why it matters” line:
+The project focused on accessibility-first engineering under hackathon constraints, combining speed, usability, and social impact.
+
+PROJECT 3
+Name:
+Warehouse Forecasting Dashboard
+
+Tag:
+Data + Forecasting
+
+One-line summary:
+A forecasting and dashboarding workflow built to support warehouse planning with operational data.
+
+Description:
+At Northwell Health, I worked on data preparation, analysis, visualization, and forecasting for warehouse item trends. The project used historical storage data to support longer-term demand planning through interactive dashboards and time-series modeling.
+
+Technical highlights:
+- Worked with Python, pandas, NumPy, Prophet, Matplotlib, and Streamlit
+- Queried and prepared 2+ years of storage data using SQL and Excel
+- Built visual dashboards for trend analysis
+- Applied Prophet-based forecasting to estimate 2-year warehouse demand
+- Focused on turning messy operational data into usable planning insight
+
+Tech stack tags:
+Python, Pandas, NumPy, Prophet, SQL, Streamlit, Excel
+
+EXPERIENCE SECTION
+
+Title:
+Experience
+
+Intro line:
+Hands-on experience across web development, forecasting workflows, and production-minded engineering.
+
+EXPERIENCE 1
+Role:
+Web Developer Intern
+
+Company:
+NexSav
+
+Dates:
+May 2025 – November 2025
+
+Description:
+Built and improved client-facing websites for NYC public schools with a focus on accessibility, performance, and maintainable frontend architecture.
+
+Bullets:
+- Developed 8+ production websites using React, TypeScript, HTML, and CSS
+- Built experiences serving 5,000+ students across NYC public schools
+- Used ShadCN and TailwindCSS to accelerate frontend development by 30%
+- Contributed to projects for schools that previously lacked a modern web presence
+- Worked with accessibility considerations aligned with WCAG standards
+
+EXPERIENCE 2
+Role:
+Student Aide / Intern
+
+Company:
+Northwell Health
+
+Dates:
+June 2024 – September 2024
+
+Description:
+Supported warehouse analytics and forecasting efforts by transforming historical operations data into dashboards and predictive models.
+
+Bullets:
+- Prepared and analyzed large historical datasets using SQL, Excel, and Python
+- Built trend dashboards with Streamlit and visualization libraries
+- Applied time-series forecasting to support operational planning
+- Worked with real organizational data rather than toy datasets, emphasizing reliability and usability
+
+LEADERSHIP SECTION
+
+Title:
+Leadership
+
+LEADERSHIP 1
+Role:
+President
+
+Organization:
+Herricks Rube Goldberg
+
+Dates:
+September 2023 – June 2025
+
+Description:
+Led a large student engineering team through design, coordination, iteration, and competition execution.
+
+Bullets:
+- Led a 50-member team in designing and integrating a 20-stage mechanical system
+- Used iterative prototyping and failure analysis to refine system performance
+- Managed coordination across a large team and kept development on track
+- Won 1st place at the 2024 regional competition, the first in the club’s history
+
+Optional framing line:
+This experience strengthened my ability to lead technical work under constraints, coordinate across teams, and keep complex builds moving forward.
+
+OPTIONAL LEADERSHIP 2
+Role:
+Secretary
+
+Organization:
+Herricks Muslim Student Association
+
+Dates:
+September 2023 – June 2025
+
+Description:
+Supported event logistics, communication, and organizational consistency across club activities.
+
+Bullets:
+- Coordinated meeting and event logistics
+- Helped track participation and support communication across members
+- Contributed to keeping events organized and engagement consistent
+
+SKILLS SECTION
+
+Title:
+Technical Toolkit
+
+Display this in grouped categories, not as one giant blob.
+
+Languages:
+Python, TypeScript, SQL, Embedded C
+
+Frontend:
+React, HTML, CSS, TailwindCSS, ShadCN
+
+Backend / Data:
+FastAPI, Pandas, NumPy, Streamlit, Excel
+
+ML / AI:
+TensorFlow, CNNs, KNN, MediaPipe, Embedding-based retrieval, Gemini API
+
+Tools:
+Git, GitHub, Parquet, OpenCV, Matplotlib
+
+CONTACT SECTION
+
+Title:
+Let’s Build Something Useful
+
+Body:
+I’m always interested in new opportunities, ambitious projects, and conversations around AI, software, and product-driven engineering.
+
+Contact items:
+- Email: imibrahimq@gmail.com
+- GitHub: github.com/ibbydiggy250
+- LinkedIn: linkedin.com/in/ibrahim-quaizar-708138304
+
+FOOTER
+Keep footer minimal:
+Ibrahim Quaizar
+Built with Next.js and TailwindCSS

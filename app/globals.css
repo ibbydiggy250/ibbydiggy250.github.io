@@ -1,0 +1,233 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  background: #09090b;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 88px;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 18% 14%, rgba(125, 211, 252, 0.08), transparent 24rem),
+    radial-gradient(circle at 78% 10%, rgba(103, 232, 249, 0.06), transparent 22rem),
+    linear-gradient(180deg, #09090b 0%, #09090b 48%, #0d1110 100%);
+  color: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: rgba(125, 211, 252, 0.28);
+}
+
+.fade-slide {
+  animation: fade-slide 0.75s ease both;
+}
+
+.fade-slide-delay {
+  animation: fade-slide 0.75s ease 0.12s both;
+}
+
+.portrait-float {
+  animation: portrait-float 7s ease-in-out infinite;
+}
+
+.orbit-system {
+  isolation: isolate;
+}
+
+.orbit-track {
+  --duration: 22s;
+  --delay: 0s;
+  position: absolute;
+  z-index: 20;
+  border: 1px solid rgba(125, 211, 252, 0.1);
+  border-radius: 9999px;
+  animation: orbit var(--duration) linear infinite;
+  animation-delay: var(--delay);
+}
+
+.orbit-track-1 {
+  inset: 0.2rem;
+  --duration: 24s;
+  --delay: -3s;
+}
+
+.orbit-track-2 {
+  inset: 1.2rem;
+  --duration: 19s;
+  --delay: -9s;
+  border-color: rgba(212, 212, 216, 0.1);
+}
+
+.orbit-track-3 {
+  inset: 2.1rem;
+  --duration: 28s;
+  --delay: -17s;
+}
+
+.orbit-track-4 {
+  inset: 2.9rem;
+  --duration: 16s;
+  --delay: -6s;
+  border-color: rgba(212, 212, 216, 0.08);
+}
+
+.orbit-track-5 {
+  inset: 3.6rem;
+  --duration: 21s;
+  --delay: -13s;
+}
+
+.orbit-token {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  white-space: nowrap;
+  border: 1px solid rgba(63, 63, 70, 0.9);
+  border-radius: 9999px;
+  background: rgba(9, 9, 11, 0.88);
+  padding: 0.28rem 0.65rem;
+  color: #d4d4d8;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+  box-shadow:
+    0 10px 34px rgba(0, 0, 0, 0.32),
+    0 0 24px rgba(125, 211, 252, 0.08);
+  transform: translate(-50%, -50%);
+  animation: counter-orbit var(--duration) linear infinite;
+  animation-delay: var(--delay);
+}
+
+.orbit-track-1 .orbit-token,
+.orbit-track-3 .orbit-token {
+  color: #7dd3fc;
+  border-color: rgba(125, 211, 252, 0.24);
+}
+
+.portrait-shell {
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.portrait-shell:hover {
+  transform: translateY(-10px) scale(1.035);
+  border-color: rgba(125, 211, 252, 0.42);
+  box-shadow:
+    0 34px 110px rgba(0, 0, 0, 0.44),
+    0 0 90px rgba(125, 211, 252, 0.15);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px) scale(0.98);
+  filter: blur(8px);
+  transition:
+    opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal-card {
+  opacity: 0;
+  transform: translateY(22px) scale(0.97);
+  filter: blur(6px);
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.reveal.is-visible,
+.reveal-card.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
+.reveal-card.is-visible:hover {
+  transform: translateY(-3px) scale(1.025);
+}
+
+@keyframes fade-slide {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes portrait-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes counter-orbit {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal,
+  .reveal-card,
+  .portrait-float,
+  .portrait-shell,
+  .orbit-track,
+  .orbit-token {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+
+  .orbit-token {
+    transform: translate(-50%, -50%);
+  }
+}

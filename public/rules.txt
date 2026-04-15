@@ -1,0 +1,29 @@
+FORMATTING RULES
+
+1. Keep hero text compact and strong.
+1. Should not look like a resume dump
+2. About section should be at most 2 short paragraphs.
+3. Featured Projects should be the most visually dominant section on the page.
+4. Every project card must include:
+   - project name
+   - short label/tag
+   - one-sentence summary
+   - short descriptive paragraph
+   - 4 to 5 technical highlights
+   - tech stack pills
+   - links for GitHub and demo if available
+
+5. Experience cards should be smaller than project cards.
+6. Leadership should feel like supporting proof of execution, not the page centerpiece.
+7. Skills should be grouped into categories using pill badges or compact lists.
+8. Use action verbs and technical nouns; avoid generic filler.
+9. Never use phrases like:
+   - passionate student
+   - motivated learner
+   - hardworking individual
+   - always eager to learn
+   - driven by innovation
+10. Tone should sound like an engineer, not a college admissions essay.
+11. Preserve whitespace and avoid long dense text blocks.
+12. Keep line length readable and mobile-friendly.
+13. If a detail is not explicitly supported by the provided content, do not add it.
