@@ -168,8 +168,14 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-zinc-800/60 bg-zinc-950/70 shadow-[0_1px_0_rgba(255,255,255,0.03)] backdrop-blur-2xl">
         <nav className="mx-auto flex max-w-[1100px] items-center justify-between px-5 py-4 sm:px-6 lg:px-8">
           <a href="#top" className="flex items-center gap-3" aria-label="Ibrahim Quaizar home">
-            <span className="grid h-9 w-9 place-items-center rounded-md border border-zinc-700/80 bg-zinc-900 text-sm font-bold text-sky-300 shadow-[0_0_28px_rgba(125,211,252,0.12)]">
-              IQ
+            <span className="relative grid h-9 w-9 place-items-center overflow-hidden rounded-md border border-zinc-700/80 bg-zinc-900 shadow-[0_0_28px_rgba(125,211,252,0.12)]">
+              <Image
+                src="/logo.png"
+                alt="Ibrahim Quaizar logo"
+                fill
+                sizes="36px"
+                className="scale-150 object-cover"
+              />
             </span>
             <span className="hidden text-sm font-medium text-zinc-100 sm:block">
               Ibrahim Quaizar

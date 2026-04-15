@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   title: "Ibrahim Quaizar | AI & Full-Stack Engineer",
   description:
     "Computer Engineering student at Stony Brook building AI-powered systems, full-stack products, and scalable tools.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   openGraph: {
     title: "Ibrahim Quaizar | AI & Full-Stack Engineer",
     description:
