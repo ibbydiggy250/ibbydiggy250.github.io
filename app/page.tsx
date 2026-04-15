@@ -33,6 +33,7 @@ const projects = [
       "Optimized the flow around relevant, usable recommendations",
     ],
     github: "https://github.com/ibbydiggy250/Matchedin?tab=readme-ov-file",
+    demo: "https://www.youtube.com/watch?v=kG28EVfBbFc&t=6s",
   },
   {
     title: "Hands-Up",
@@ -50,6 +51,7 @@ const projects = [
       "Connected live inference to speech output through ElevenLabs",
     ],
     github: "https://github.com/ibbydiggy250/Hands-Up",
+    demo: "https://www.youtube.com/watch?v=wzdfVaDe_gc&t=1s",
   },
   {
     title: "Warehouse Forecasting Dashboard",
