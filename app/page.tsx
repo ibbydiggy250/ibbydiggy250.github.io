@@ -9,7 +9,7 @@ const links = {
   github: "https://github.com/ibbydiggy250",
   linkedin: "https://www.linkedin.com/in/ibrahim-quaizar-708138304/",
   email: "mailto:imibrahimq@gmail.com",
-  resume: "/Ibrahim-Quaizar-Resume.pdf",
+  resume: "/resume.pdf",
 };
 
 const navItems = ["About", "Projects", "Experience", "Contact"];
@@ -208,9 +208,14 @@ export default function Home() {
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <ButtonLink href="#projects" className="w-full sm:w-auto">View Projects</ButtonLink>
-              <ButtonLink href={links.resume} variant="secondary" className="w-full sm:w-auto" download>
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-10 w-full items-center justify-center rounded-md border border-zinc-700/80 bg-zinc-950/70 px-4 text-sm font-medium text-zinc-100 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] transition-all duration-300 hover:border-sky-300/50 hover:bg-gradient-to-r hover:from-zinc-900 hover:to-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-300 sm:w-auto"
+              >
                 Resume
-              </ButtonLink>
+              </a>
               <ButtonLink href={links.github} variant="secondary" external className="w-full sm:w-auto">
                 GitHub
               </ButtonLink>
@@ -404,9 +409,14 @@ export default function Home() {
             <ButtonLink href={links.linkedin} variant="secondary" external className="w-full sm:w-auto">
               LinkedIn
             </ButtonLink>
-            <ButtonLink href={links.resume} variant="secondary" className="w-full sm:w-auto" download>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-zinc-700/80 bg-zinc-950/70 px-4 text-sm font-medium text-zinc-100 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] transition-all duration-300 hover:border-sky-300/50 hover:bg-gradient-to-r hover:from-zinc-900 hover:to-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-300 sm:w-auto"
+            >
               Resume
-            </ButtonLink>
+            </a>
           </div>
         </div>
       </section>
